@@ -1,0 +1,21 @@
+p{
+    color:crimson;
+}
+
+/*Vamos a definir una regla con selector de tipo id -> Este va a tener mucha prioridad*/
+#p1{
+    border: 8px solid black;
+    background-color: burlywood;
+    color: midnightblue;
+}
+/*Vamos a definir una regla con selector de tipo clase*/
+.c1{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: cadetblue;
+}
+/*Vamos a definir una regla con selector de tipo id*/
+#p3{
+    margin: 25px;
+    border-top: 8px solid black;
+}
